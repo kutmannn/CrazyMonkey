@@ -1,0 +1,83 @@
+.home{
+    padding: 220px 0 236px;
+    text-align: center;
+    background: url("../images/homebg.png") center/cover no-repeat fixed;
+}
+.home-title{
+    font-family: 'Rubik' ,sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.home-title-yellow{
+    color: #FEC503;
+}
+.home-btn{
+    padding: 16px 77.5px 18px;
+    background: #FEC503;
+    border-radius: 100px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #242424;
+    cursor: pointer;
+    border: none;
+}
+@media (max-width: 1200px){
+    .home-title{
+        font-size: 44px;
+    }
+    .home{
+        padding: 200px 0 170px;
+    }
+}
+@media (max-width: 1024px){
+}
+@media (max-width: 992px){
+    .home-title{
+        font-size:38px ;
+    }
+    .home-btn{
+        padding: 12px 65.5px 13px;
+    }
+}
+@media (max-width: 876px){
+
+
+}
+@media  (max-width: 768px) {
+    .home-title {
+        font-size: 31px;
+    }
+
+}
+@media (max-width: 676px){
+    .home{
+        padding: 180px 0 140px;
+        background: url("../images/homebg.png") bottom right/cover no-repeat fixed;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .home-title {
+        font-size: 22px;
+    }
+    .home-btn {
+        padding: 7px 51.5px 8px;
+    }
+}
+@media (max-width: 425px) {
+    .home-title br{
+        display: none;
+    }
+
+}
+@media (max-width: 375px) {
+    
+
+}
